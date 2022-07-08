@@ -12,16 +12,7 @@ class Fetch {
             URL: {
               type: Scratch.ArgumentType.STRING,
               defaultValue: 'URL'
-            }       
-            {
-          opcode: 'post',
-          blockType: Scratch.BlockType.REPORTER,
-          text: 'POST [URL]',
-          arguments: {
-            URL: {
-              type: Scratch.ArgumentType.STRING,
-              defaultValue: 'URL'
-            }
+            }     
           }
         }
       ]
